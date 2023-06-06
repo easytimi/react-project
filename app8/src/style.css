@@ -1,0 +1,142 @@
+.head{
+    display: flex;
+    
+    text-decoration: none;
+    margin-top: 0px;
+    justify-content: space-between;
+    list-style: none;
+    height:60px;
+    align-items: center;
+    background-color: #CDCDCD;
+   
+}
+.head li Link{
+    text-decoration: none;
+}
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top:0px ;
+    padding-bottom:20px ;
+    padding-right:20px ;
+    padding-left: 20px;
+    
+}
+.card{
+    
+    
+    margin-bottom:40px;
+    padding-bottom: 10px;
+    background-color: white;
+    box-sizing: border-box;
+}
+.card img{
+    height: 300px;
+    width:300px
+}
+.pricing{
+    display:flex;    
+    
+    align-items: centre;
+    justify-content: centre;
+}
+.pricing img{
+    margin-top: 18px;
+}
+.btn{
+    width:200px;
+    height: 50px;
+    
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: blue;
+    color:white;
+    font-size:30px;
+    font-weight:500px;
+}
+.btn Link{
+    color:white;
+}
+.horizontal_slider{
+    display:block;
+    width:100%;
+    overflow-x:scroll;
+    margin-top: 100px;
+
+}
+.slider_container{
+    display:block;
+    white-space:nowrap;
+}
+.item{
+    display:inline-block;
+    margin-right: 10px;
+}
+.item img{
+    width:250px;
+    height:250px;
+}
+.btn-2{
+    margin-top: 50px; 
+    height: 40px;
+    margin-bottom: 40px;
+}
+.btn-2 button{
+    height: 40px;
+}
+.paper{
+    
+    margin-top: 200px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 50px;
+    padding-bottom: 15px; 
+    background-color: #E9E9E9;
+}
+.paper form input{
+    width:300px;
+    height: 40px;
+}
+.sub{
+    width:50px;
+}
+.lab{
+    margin-left: 20px;
+}
+.search{
+    display:flex;
+    margin-right: 20px;
+}
+.search div input{
+    width:50px;
+    height: 20px;
+}
+.board{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom:50px ;
+    
+    }
+.board2{
+    background-color: #E4E7E9;
+    padding-top: 150px;
+}    
+.board section{
+    width:400px;
+    height:500px;
+    font-size: 28px;
+    background-color: #323E74;
+    color:white;
+}
+.box{
+    background-color: #D7CEC7;
+    margin-top: -16px;
+    
+}
+
+
+
